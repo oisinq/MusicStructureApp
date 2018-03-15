@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quinntessentials - Library</string>
+
+    <string name="album1">Discovery</string>
+    <string name="album2">To Pimp A Butterfly</string>
+    <string name="album3">Funeral</string>
+    <string name="album4">College Dropout</string>
+    <string name="album5">Cross</string>
+    <string name="album6">Hurry Up, We\'re Dreaming</string>
+    <string name="album7">In Rainbows</string>
+    <string name="album8">Flower Boy</string>
+    <string name="album9">Pure Comedy</string>
+    <string name="album10">4:44</string>
+    <string name="album11">Saturation Trilogy</string>
+    <string name="album12">Big Fish Theory</string>
+
+    <string name="artist1">Daft Punk</string>
+    <string name="artist2">Kendrick Lamar</string>
+    <string name="artist3">Arcade Fire</string>
+    <string name="artist4">Kanye West</string>
+    <string name="artist5">Justice</string>
+    <string name="artist6">M83</string>
+    <string name="artist7">Radiohead</string>
+    <string name="artist8">Tyler, the Creator</string>
+    <string name="artist9">Father John Misty</string>
+    <string name="artist10">Jay-Z</string>
+    <string name="artist11">Brockhampton</string>
+    <string name="artist12">Vince Staples</string>
+    <string name="library">Library</string>
+    <string name="previous">Previous</string>
+    <string name="pause">Pause</string>
+    <string name="next">Next</string>
+
+
+</resources>
