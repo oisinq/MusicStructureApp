@@ -1,14 +1,14 @@
 package io.oisin.musicstructureapp;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MusicActivity extends Activity {
+public class MusicActivity extends AppCompatActivity {
 
     Episode episode;
 

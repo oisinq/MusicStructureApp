@@ -11,11 +11,16 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MusicActivity"></activity>
+        <activity android:name=".MusicActivity"
+            android:label="@string/now_playing_label"
+            android:parentActivityName="io.oisin.musicstructureapp.MusicActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.oisin.musicstructureapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

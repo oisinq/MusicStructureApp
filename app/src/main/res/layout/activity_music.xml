@@ -1,48 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_music"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="io.oisin.musicstructureapp.MusicActivity">
 
     <ImageView
         android:id="@+id/albumart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:adjustViewBounds="true"
         tools:src="@drawable/s1ep7" />
 
-    <LinearLayout
+
+    <TextView
+        android:id="@+id/episode_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/albumart"
-        android:orientation="vertical">
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:text="Season 1 Episode 7" />
 
-        <TextView
-            android:id="@+id/episode_details"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            tools:text="Season 1 Episode 7" />
+    <TextView
+        android:id="@+id/album_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        tools:text="In Rainbows - Radiohead" />
 
-        <TextView
-            android:id="@+id/album_details"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="22sp"
-            tools:text="In Rainbows - Radiohead" />
-
-
-    </LinearLayout>
     <LinearLayout
         android:id="@+id/mediaButtons"
         style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/library_button"
@@ -54,28 +46,28 @@
             android:text="@string/library" />
 
         <Button
-            android:layout_width="0dp"
             style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="3dp"
             android:layout_weight="1"
             android:text="@string/previous" />
 
         <Button
-            android:layout_width="0dp"
             style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="3dp"
             android:layout_weight="1"
             android:text="@string/pause" />
 
         <Button
-            android:layout_width="0dp"
             style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="3dp"
             android:layout_weight="1"
             android:text="@string/next" />
 
     </LinearLayout>
-</RelativeLayout>
+</LinearLayout>
